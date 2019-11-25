@@ -3,7 +3,7 @@
 Getting started:
 
 ```
-   cd to-do-list-db
+   cd todo-list-db
    bundle install
    psql -f db/migrations/01_create_todolist_table.sql
    psql -f db/migrations/02_create_todolist_test_table.sql
